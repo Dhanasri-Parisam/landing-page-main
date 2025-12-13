@@ -11,4 +11,5 @@ node_modules/
 
 # Editor
 .vscode/
+package.json
 
