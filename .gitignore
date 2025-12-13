@@ -1,0 +1,13 @@
+# Portfolio static files
+portfolio website/assets/
+portfolio website/images/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Editor
+.vscode/
