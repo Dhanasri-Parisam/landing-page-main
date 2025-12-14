@@ -1,41 +1,56 @@
-# dependencies
-node_modules/
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
 
-# build output
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# ===============================
+# Node / React / Vite
+# ===============================
+node_modules/
 dist/
 build/
+.cache/
+.vite/
 
-# env files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# logs
+# npm / yarn / pnpm debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# editor files
-.vscode/
-.idea/
-# Portfolio static files
-portfolio website/assets/
-portfolio website/images/
-
-# Dependencies
-node_modules/
-
-# Environment
+# ===============================
+# Environment variables (IMPORTANT)
+# ===============================
 .env
-.env.*
+.env.local
+.env.*.local
 
-# Editor
-.vscode/
-package.json
+# ===============================
+# Mobirise (VERY IMPORTANT)
+# ===============================
+# Mobirise generates heavy assets — ignore them
+assets/
+bootstrap/
+mobirise/
+fonts/
+images/
+css/
+js/
 
+# Mobirise cache & backups
+*.mbcache
+*.backup
+
+# ===============================
+# Do NOT ignore these (explicit keep)
+# ===============================
+!index.html
+!project.mobirise
+!README.md
