@@ -47,6 +47,9 @@ js/
 # Mobirise cache & backups
 *.mbcache
 *.backup
+# Mobirise project files (ignore all except the main one)
+*.mobirise
+!project.mobirise
 
 # ===============================
 # Do NOT ignore these (explicit keep)
